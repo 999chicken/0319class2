@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>정말 이거 되는거맞음?</h2>
+<iframe src="new.html" name="left"
+width="480"    
+height="360"
+srcdoc="
+<html>
+<head>
+</head>
+<body>
+<h2>iframe으로 인터넷창두개띄우기</h2>    
+<hr>
+<ul>
+<li><a href='http://www.etnews.com' target='_blank'>이티뉴스</a></li>
+<li><a href='http://www.mk.co.kr' target='_self'>매일경제</a></li>
+<li><a href='http://www.mk.co.kr' target='right'>매일경제</a></li>
+</ul>
+</body>
+</html>
+"
+>
+</iframe>
+<iframe name="right"
+width="480"    
+height="360">
+</iframe>
+</body>
+</html>
